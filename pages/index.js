@@ -37,7 +37,7 @@ const callGenerateEndpoint = async () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>What to reply to that text message from that girl ?</h1>
+            <h1>What to reply to continue the conversation ?</h1>
           </div>
           <div className="header-subtitle">
             <h2>Type what she said here, and we'll handle the rest </h2>
