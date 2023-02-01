@@ -6,7 +6,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = "Suggest 10 teasy/flirty replies to a girl that I like and texted me this :- ";
+const basePromptPrefix = "Suggest 10 open ended questions to continue conversations when someone says this :- ";
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`)
